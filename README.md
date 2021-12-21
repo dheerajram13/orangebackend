@@ -18,7 +18,7 @@ The goal of this project is to make an API to fetch all the time slots and book 
 
     ```
 5. Create a virtual env and activate the env. 
-6. Type the following commonds in your terminal:
+6. Type the following commands in your terminal:
     ```
         pip install -r requirements.txt
         python manage.py makemigrations
@@ -29,9 +29,9 @@ The goal of this project is to make an API to fetch all the time slots and book 
     ```sh
     $ python manage.py runserver
     ```
-8. To add the crontab (run it only once, else it will create multiple cronjob for the same thing. use show to check the existing cronjobs)
+8. I've created this for the production environment. Just to make automate reset the slots everday. To add the crontab (run it only once, else it will create multiple cronjob for the same thing. use show to check the existing cronjobs)
     ```sh
-        $ python manage.py crontab add 
+    $ python manage.py crontab add 
     ```
 
 ### Getting Started with the API 
