@@ -3,8 +3,10 @@
 The goal of this project is to make an API to fetch all the time slots and book a available time slot with the customer details. 
 
 # Getting Started
-1. Clone this repo in your machine. [Repo link](https://github.com/dheerajram13/orangebackend).
-2. Create a `.env` file where manage.py file exists, with the following data. 
+1. Clone this repo in your machine. [Git link](https://github.com/dheerajram13/orangebackend.git).
+2. Install Python3 in your machine. [Download Python](https://www.python.org/downloads/).
+3. Install postgresql and create a DB.
+4. Create a `.env` file where manage.py file exists, with the following data. 
     ```
     DEBUG=
     SECRET_KEY=
@@ -15,8 +17,6 @@ The goal of this project is to make an API to fetch all the time slots and book 
     DB_PORT=5432
 
     ```
-3. Install Python3 in your machine. [Download Python](https://www.python.org/downloads/).
-4. Install postgresql and create a DB with the DB name: orange, and create a user: orange and password: orange2021 
 5. Create a virtual env and activate the env. 
 6. Type the following commonds in your terminal:
     ```
